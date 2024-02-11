@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>재은이를 위한 10초 예준고사</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/personalTest.js"></script>
+</head>
+<body>
+    
+    <div id="personalTest">
+        <div class="intro_container active">
+            <h1>재은이를 위한 <span class="point_text">10초 예준고사</span></h1>
+            <button type="button" data-action="start">시작하기</button>
+        </div>
+        <div class="test_container">
+            <!-- 질문과 답변 버튼이 동적으로 추가될 위치 -->
+            <h2>
+                <span class="progress">Q1.</span>
+                <span class="question">질문이 여기에 표시됩니다.</span>
+            </h2>
+            <div class="answer_container">
+                <!-- 답변 버튼이 동적으로 추가될 위치 -->
+            </div>
+        </div>
+        <div class="result_container">
+            <!-- 결과가 표시될 위치 -->
+            <h2 class="result_text">당신의 결과는 여기에 표시됩니다.</h2>
+            <button type="button" class="restart" data-action="restart" style="display:none;">다시 시작하기</button>
+        </div>
+    </div>
+
+</body>
+</html>
